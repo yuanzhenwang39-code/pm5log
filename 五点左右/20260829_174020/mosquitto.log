@@ -1,0 +1,788 @@
+1787996420: mosquitto version 2.0.11 starting
+1787996420: Config loaded from /opt/linkswarm_mosquitto/config/linkswarm_mosquitto.conf.
+1787996420: Opening ipv4 listen socket on port 1883.
+1787996420: mosquitto version 2.0.11 running
+1787996420: New connection from 192.168.3.24:7768 on port 1883.
+1787996420: New client connected from 192.168.3.24:7768 as link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (p1, c1, k5).
+1787996420: No will message specified.
+1787996420: Sending CONNACK to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (0, 0)
+1787996420: New connection from 192.168.3.24:7724 on port 1883.
+1787996420: Received SUBSCRIBE from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996420: 	aimrt_rpc_rsp/linkswarm_manager/# (QoS 0)
+1787996420: link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 0 aimrt_rpc_rsp/linkswarm_manager/#
+1787996420: Sending SUBACK to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996420: Received SUBSCRIBE from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996420: 	/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel (QoS 0)
+1787996420: link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 0 /channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel
+1787996420: Sending SUBACK to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996420: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (241 bytes))
+1787996420: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FGetRobotConfig', ... (247 bytes))
+1787996421: New connection from 192.168.3.24:45295 on port 1883.
+1787996423: New connection from 192.168.3.24:7811 on port 1883.
+1787996424: Client link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 already connected, closing old connection.
+1787996424: New client connected from 192.168.3.24:7811 as link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (p1, c1, k5).
+1787996424: No will message specified.
+1787996424: Sending CONNACK to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (0, 0)
+1787996424: New connection from 192.168.3.24:7812 on port 1883.
+1787996424: Client link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 already connected, closing old connection.
+1787996424: New client connected from 192.168.3.24:7812 as link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (p1, c1, k5).
+1787996424: No will message specified.
+1787996424: Sending CONNACK to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (0, 0)
+1787996424: Received SUBSCRIBE from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996424: 	aimrt_rpc_rsp/linkswarm_manager/# (QoS 0)
+1787996424: link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 0 aimrt_rpc_rsp/linkswarm_manager/#
+1787996424: Sending SUBACK to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996424: Received SUBSCRIBE from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996424: 	/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel (QoS 0)
+1787996424: link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 0 /channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel
+1787996424: Sending SUBACK to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996424: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (241 bytes))
+1787996424: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FGetRobotConfig', ... (247 bytes))
+1787996424: New connection from 192.168.3.24:7817 on port 1883.
+1787996424: Client link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 already connected, closing old connection.
+1787996424: New client connected from 192.168.3.24:7817 as link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (p1, c1, k5).
+1787996424: No will message specified.
+1787996424: Sending CONNACK to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (0, 0)
+1787996425: New connection from 192.168.3.24:7818 on port 1883.
+1787996425: Client link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 already connected, closing old connection.
+1787996425: New client connected from 192.168.3.24:7818 as link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (p1, c1, k5).
+1787996425: No will message specified.
+1787996425: Sending CONNACK to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (0, 0)
+1787996425: Received SUBSCRIBE from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996425: 	aimrt_rpc_rsp/linkswarm_manager/# (QoS 0)
+1787996425: link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 0 aimrt_rpc_rsp/linkswarm_manager/#
+1787996425: Sending SUBACK to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996425: Received SUBSCRIBE from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996425: 	/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel (QoS 0)
+1787996425: link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 0 /channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel
+1787996425: Sending SUBACK to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996425: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (241 bytes))
+1787996425: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FGetRobotConfig', ... (247 bytes))
+1787996425: New connection from 127.0.0.1:48580 on port 1883.
+1787996425: New client connected from 127.0.0.1:48580 as linkswarm_mqtt_gateway (p2, c1, k10).
+1787996425: No will message specified.
+1787996425: Sending CONNACK to linkswarm_mqtt_gateway (0, 0)
+1787996425: Received SUBSCRIBE from linkswarm_mqtt_gateway
+1787996425: 	aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync (QoS 2)
+1787996425: linkswarm_mqtt_gateway 2 aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync
+1787996425: Sending SUBACK to linkswarm_mqtt_gateway
+1787996425: Received SUBSCRIBE from linkswarm_mqtt_gateway
+1787996425: 	aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FSetHeartbeatFrequency (QoS 2)
+1787996425: linkswarm_mqtt_gateway 2 aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FSetHeartbeatFrequency
+1787996425: Sending SUBACK to linkswarm_mqtt_gateway
+1787996425: Received SUBSCRIBE from linkswarm_mqtt_gateway
+1787996425: 	aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FGetHeartbeat (QoS 2)
+1787996425: linkswarm_mqtt_gateway 2 aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FGetHeartbeat
+1787996425: Sending SUBACK to linkswarm_mqtt_gateway
+1787996425: Received SUBSCRIBE from linkswarm_mqtt_gateway
+1787996425: 	aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FSetGroupControlMode (QoS 2)
+1787996425: linkswarm_mqtt_gateway 2 aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FSetGroupControlMode
+1787996425: Sending SUBACK to linkswarm_mqtt_gateway
+1787996425: Received SUBSCRIBE from linkswarm_mqtt_gateway
+1787996425: 	aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FGetRobotConfig (QoS 2)
+1787996425: linkswarm_mqtt_gateway 2 aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FGetRobotConfig
+1787996425: Sending SUBACK to linkswarm_mqtt_gateway
+1787996425: Received SUBSCRIBE from linkswarm_mqtt_gateway
+1787996425: 	aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FHealthDiagnosis (QoS 2)
+1787996425: linkswarm_mqtt_gateway 2 aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FHealthDiagnosis
+1787996425: Sending SUBACK to linkswarm_mqtt_gateway
+1787996425: Received SUBSCRIBE from linkswarm_mqtt_gateway
+1787996425: 	aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FGetRobotInfo (QoS 2)
+1787996425: linkswarm_mqtt_gateway 2 aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FGetRobotInfo
+1787996425: Sending SUBACK to linkswarm_mqtt_gateway
+1787996425: Received SUBSCRIBE from linkswarm_mqtt_gateway
+1787996425: 	aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FInitImu (QoS 2)
+1787996425: linkswarm_mqtt_gateway 2 aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FInitImu
+1787996425: Sending SUBACK to linkswarm_mqtt_gateway
+1787996425: Received SUBSCRIBE from linkswarm_mqtt_gateway
+1787996425: 	aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmTaskService%2FCreateTask (QoS 2)
+1787996425: linkswarm_mqtt_gateway 2 aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmTaskService%2FCreateTask
+1787996425: Sending SUBACK to linkswarm_mqtt_gateway
+1787996425: Received SUBSCRIBE from linkswarm_mqtt_gateway
+1787996425: 	aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmTaskService%2FExecuteTask (QoS 2)
+1787996425: linkswarm_mqtt_gateway 2 aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmTaskService%2FExecuteTask
+1787996425: Sending SUBACK to linkswarm_mqtt_gateway
+1787996425: Received SUBSCRIBE from linkswarm_mqtt_gateway
+1787996425: 	aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmTaskService%2FStopTask (QoS 2)
+1787996425: linkswarm_mqtt_gateway 2 aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmTaskService%2FStopTask
+1787996425: Sending SUBACK to linkswarm_mqtt_gateway
+1787996425: Received PUBLISH from linkswarm_mqtt_gateway (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996425: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996426: New connection from 192.168.3.24:45257 on port 1883.
+1787996427: New connection from 192.168.3.24:7835 on port 1883.
+1787996427: Client link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 already connected, closing old connection.
+1787996427: New client connected from 192.168.3.24:7835 as link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (p1, c1, k5).
+1787996427: No will message specified.
+1787996427: Sending CONNACK to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (0, 0)
+1787996427: New connection from 192.168.3.24:7836 on port 1883.
+1787996427: Client link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 already connected, closing old connection.
+1787996427: New client connected from 192.168.3.24:7836 as link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (p1, c1, k5).
+1787996427: No will message specified.
+1787996427: Sending CONNACK to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (0, 0)
+1787996427: Received SUBSCRIBE from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996427: 	aimrt_rpc_rsp/linkswarm_manager/# (QoS 0)
+1787996427: link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 0 aimrt_rpc_rsp/linkswarm_manager/#
+1787996427: Sending SUBACK to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996427: Received SUBSCRIBE from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996427: 	/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel (QoS 0)
+1787996427: link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 0 /channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel
+1787996427: Sending SUBACK to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996427: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (241 bytes))
+1787996427: Sending PUBLISH to linkswarm_mqtt_gateway (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (241 bytes))
+1787996427: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FGetRobotConfig', ... (247 bytes))
+1787996427: Sending PUBLISH to linkswarm_mqtt_gateway (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FGetRobotConfig', ... (247 bytes))
+1787996427: Received PUBLISH from linkswarm_mqtt_gateway (d0, q2, r0, m13, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (137 bytes))
+1787996427: Sending PUBREC to linkswarm_mqtt_gateway (m13, rc0)
+1787996427: Received PUBLISH from linkswarm_mqtt_gateway (d0, q2, r0, m14, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FGetRobotConfig', ... (143 bytes))
+1787996427: Sending PUBREC to linkswarm_mqtt_gateway (m14, rc0)
+1787996427: Received PUBREL from linkswarm_mqtt_gateway (Mid: 13)
+1787996427: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (137 bytes))
+1787996427: Sending PUBCOMP to linkswarm_mqtt_gateway (m13)
+1787996427: Received PUBREL from linkswarm_mqtt_gateway (Mid: 14)
+1787996427: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FGetRobotConfig', ... (143 bytes))
+1787996427: Sending PUBCOMP to linkswarm_mqtt_gateway (m14)
+1787996427: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (241 bytes))
+1787996427: Sending PUBLISH to linkswarm_mqtt_gateway (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (241 bytes))
+1787996427: Received PUBLISH from linkswarm_mqtt_gateway (d0, q2, r0, m15, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (137 bytes))
+1787996427: Sending PUBREC to linkswarm_mqtt_gateway (m15, rc0)
+1787996427: Received PUBREL from linkswarm_mqtt_gateway (Mid: 15)
+1787996427: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (137 bytes))
+1787996427: Sending PUBCOMP to linkswarm_mqtt_gateway (m15)
+1787996427: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996427: Sending PUBLISH to linkswarm_mqtt_gateway (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996427: Received PUBLISH from linkswarm_mqtt_gateway (d0, q2, r0, m16, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (137 bytes))
+1787996427: Sending PUBREC to linkswarm_mqtt_gateway (m16, rc0)
+1787996427: Received PUBREL from linkswarm_mqtt_gateway (Mid: 16)
+1787996427: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (137 bytes))
+1787996427: Sending PUBCOMP to linkswarm_mqtt_gateway (m16)
+1787996427: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996427: Sending PUBLISH to linkswarm_mqtt_gateway (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996427: Received PUBLISH from linkswarm_mqtt_gateway (d0, q2, r0, m17, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (137 bytes))
+1787996427: Sending PUBREC to linkswarm_mqtt_gateway (m17, rc0)
+1787996427: Received PUBREL from linkswarm_mqtt_gateway (Mid: 17)
+1787996427: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (137 bytes))
+1787996427: Sending PUBCOMP to linkswarm_mqtt_gateway (m17)
+1787996427: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996427: Sending PUBLISH to linkswarm_mqtt_gateway (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996427: Received PUBLISH from linkswarm_mqtt_gateway (d0, q2, r0, m18, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996427: Sending PUBREC to linkswarm_mqtt_gateway (m18, rc0)
+1787996427: Received PUBREL from linkswarm_mqtt_gateway (Mid: 18)
+1787996427: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996427: Sending PUBCOMP to linkswarm_mqtt_gateway (m18)
+1787996427: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996427: Sending PUBLISH to linkswarm_mqtt_gateway (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996427: Received PUBLISH from linkswarm_mqtt_gateway (d0, q2, r0, m19, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996427: Sending PUBREC to linkswarm_mqtt_gateway (m19, rc0)
+1787996427: Received PUBREL from linkswarm_mqtt_gateway (Mid: 19)
+1787996427: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996427: Sending PUBCOMP to linkswarm_mqtt_gateway (m19)
+1787996427: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996427: Sending PUBLISH to linkswarm_mqtt_gateway (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996427: Received PUBLISH from linkswarm_mqtt_gateway (d0, q2, r0, m20, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996427: Sending PUBREC to linkswarm_mqtt_gateway (m20, rc0)
+1787996427: Received PUBREL from linkswarm_mqtt_gateway (Mid: 20)
+1787996427: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996427: Sending PUBCOMP to linkswarm_mqtt_gateway (m20)
+1787996427: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996427: Sending PUBLISH to linkswarm_mqtt_gateway (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996427: Received PUBLISH from linkswarm_mqtt_gateway (d0, q2, r0, m21, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996427: Sending PUBREC to linkswarm_mqtt_gateway (m21, rc0)
+1787996427: Received PUBREL from linkswarm_mqtt_gateway (Mid: 21)
+1787996427: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996427: Sending PUBCOMP to linkswarm_mqtt_gateway (m21)
+1787996427: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996427: Sending PUBLISH to linkswarm_mqtt_gateway (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996427: Received PUBLISH from linkswarm_mqtt_gateway (d0, q2, r0, m22, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996427: Sending PUBREC to linkswarm_mqtt_gateway (m22, rc0)
+1787996427: Received PUBREL from linkswarm_mqtt_gateway (Mid: 22)
+1787996427: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996427: Sending PUBCOMP to linkswarm_mqtt_gateway (m22)
+1787996427: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996427: Sending PUBLISH to linkswarm_mqtt_gateway (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996427: Received PUBLISH from linkswarm_mqtt_gateway (d0, q2, r0, m23, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996427: Sending PUBREC to linkswarm_mqtt_gateway (m23, rc0)
+1787996427: Received PUBREL from linkswarm_mqtt_gateway (Mid: 23)
+1787996427: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996427: Sending PUBCOMP to linkswarm_mqtt_gateway (m23)
+1787996427: New connection from 192.168.3.24:7851 on port 1883.
+1787996427: Client link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 already connected, closing old connection.
+1787996427: New client connected from 192.168.3.24:7851 as link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (p1, c1, k5).
+1787996427: No will message specified.
+1787996427: Sending CONNACK to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (0, 0)
+1787996429: New connection from 192.168.3.24:7893 on port 1883.
+1787996429: Client link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 already connected, closing old connection.
+1787996429: New client connected from 192.168.3.24:7893 as link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (p1, c1, k5).
+1787996429: No will message specified.
+1787996429: Sending CONNACK to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (0, 0)
+1787996430: Received PUBLISH from linkswarm_mqtt_gateway (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996432: New connection from 192.168.3.24:37449 on port 1883.
+1787996432: Client link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 already connected, closing old connection.
+1787996432: New client connected from 192.168.3.24:37449 as link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (p1, c1, k5).
+1787996432: No will message specified.
+1787996432: Sending CONNACK to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (0, 0)
+1787996435: Received PUBLISH from linkswarm_mqtt_gateway (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996437: New connection from 192.168.3.24:37479 on port 1883.
+1787996437: Client link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 already connected, closing old connection.
+1787996437: New client connected from 192.168.3.24:37479 as link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (p1, c1, k5).
+1787996437: No will message specified.
+1787996437: Sending CONNACK to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (0, 0)
+1787996437: Received SUBSCRIBE from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996437: 	aimrt_rpc_rsp/linkswarm_manager/# (QoS 0)
+1787996437: link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 0 aimrt_rpc_rsp/linkswarm_manager/#
+1787996437: Sending SUBACK to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996437: Received SUBSCRIBE from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996437: 	/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel (QoS 0)
+1787996437: link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 0 /channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel
+1787996437: Sending SUBACK to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996437: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996437: Sending PUBLISH to linkswarm_mqtt_gateway (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996437: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FGetRobotConfig', ... (248 bytes))
+1787996437: Sending PUBLISH to linkswarm_mqtt_gateway (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FGetRobotConfig', ... (248 bytes))
+1787996437: Received PUBLISH from linkswarm_mqtt_gateway (d0, q2, r0, m26, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996437: Sending PUBREC to linkswarm_mqtt_gateway (m26, rc0)
+1787996437: Received PUBLISH from linkswarm_mqtt_gateway (d0, q2, r0, m27, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FGetRobotConfig', ... (144 bytes))
+1787996437: Sending PUBREC to linkswarm_mqtt_gateway (m27, rc0)
+1787996437: Received PUBREL from linkswarm_mqtt_gateway (Mid: 26)
+1787996437: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996437: Sending PUBCOMP to linkswarm_mqtt_gateway (m26)
+1787996437: Received PUBREL from linkswarm_mqtt_gateway (Mid: 27)
+1787996437: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FGetRobotConfig', ... (144 bytes))
+1787996437: Sending PUBCOMP to linkswarm_mqtt_gateway (m27)
+1787996437: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996437: Sending PUBLISH to linkswarm_mqtt_gateway (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996437: Received PUBLISH from linkswarm_mqtt_gateway (d0, q2, r0, m28, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996437: Sending PUBREC to linkswarm_mqtt_gateway (m28, rc0)
+1787996437: Received PUBREL from linkswarm_mqtt_gateway (Mid: 28)
+1787996437: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996437: Sending PUBCOMP to linkswarm_mqtt_gateway (m28)
+1787996437: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996437: Sending PUBLISH to linkswarm_mqtt_gateway (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996437: Received PUBLISH from linkswarm_mqtt_gateway (d0, q2, r0, m29, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996437: Sending PUBREC to linkswarm_mqtt_gateway (m29, rc0)
+1787996437: Received PUBREL from linkswarm_mqtt_gateway (Mid: 29)
+1787996437: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996437: Sending PUBCOMP to linkswarm_mqtt_gateway (m29)
+1787996437: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996437: Sending PUBLISH to linkswarm_mqtt_gateway (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996437: Received PUBLISH from linkswarm_mqtt_gateway (d0, q2, r0, m30, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996437: Sending PUBREC to linkswarm_mqtt_gateway (m30, rc0)
+1787996437: Received PUBREL from linkswarm_mqtt_gateway (Mid: 30)
+1787996437: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996437: Sending PUBCOMP to linkswarm_mqtt_gateway (m30)
+1787996437: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996437: Sending PUBLISH to linkswarm_mqtt_gateway (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996437: Received PUBLISH from linkswarm_mqtt_gateway (d0, q2, r0, m31, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996437: Sending PUBREC to linkswarm_mqtt_gateway (m31, rc0)
+1787996437: Received PUBREL from linkswarm_mqtt_gateway (Mid: 31)
+1787996437: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996437: Sending PUBCOMP to linkswarm_mqtt_gateway (m31)
+1787996437: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996437: Sending PUBLISH to linkswarm_mqtt_gateway (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996437: Received PUBLISH from linkswarm_mqtt_gateway (d0, q2, r0, m32, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996437: Sending PUBREC to linkswarm_mqtt_gateway (m32, rc0)
+1787996437: Received PUBREL from linkswarm_mqtt_gateway (Mid: 32)
+1787996437: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996437: Sending PUBCOMP to linkswarm_mqtt_gateway (m32)
+1787996437: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996437: Sending PUBLISH to linkswarm_mqtt_gateway (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996437: Received PUBLISH from linkswarm_mqtt_gateway (d0, q2, r0, m33, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996437: Sending PUBREC to linkswarm_mqtt_gateway (m33, rc0)
+1787996437: Received PUBREL from linkswarm_mqtt_gateway (Mid: 33)
+1787996437: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996437: Sending PUBCOMP to linkswarm_mqtt_gateway (m33)
+1787996437: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996437: Sending PUBLISH to linkswarm_mqtt_gateway (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996437: Received PUBLISH from linkswarm_mqtt_gateway (d0, q2, r0, m34, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996437: Sending PUBREC to linkswarm_mqtt_gateway (m34, rc0)
+1787996437: Received PUBREL from linkswarm_mqtt_gateway (Mid: 34)
+1787996437: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996437: Sending PUBCOMP to linkswarm_mqtt_gateway (m34)
+1787996437: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996437: Sending PUBLISH to linkswarm_mqtt_gateway (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996437: Received PUBLISH from linkswarm_mqtt_gateway (d0, q2, r0, m35, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996437: Sending PUBREC to linkswarm_mqtt_gateway (m35, rc0)
+1787996437: Received PUBREL from linkswarm_mqtt_gateway (Mid: 35)
+1787996437: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996437: Sending PUBCOMP to linkswarm_mqtt_gateway (m35)
+1787996437: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996437: Sending PUBLISH to linkswarm_mqtt_gateway (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996437: Received PUBLISH from linkswarm_mqtt_gateway (d0, q2, r0, m36, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996437: Sending PUBREC to linkswarm_mqtt_gateway (m36, rc0)
+1787996437: Received PUBREL from linkswarm_mqtt_gateway (Mid: 36)
+1787996437: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996437: Sending PUBCOMP to linkswarm_mqtt_gateway (m36)
+1787996440: Received PUBLISH from linkswarm_mqtt_gateway (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996440: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996441: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996441: Sending PUBLISH to linkswarm_mqtt_gateway (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996441: Received PUBLISH from linkswarm_mqtt_gateway (d0, q2, r0, m38, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996441: Sending PUBREC to linkswarm_mqtt_gateway (m38, rc0)
+1787996441: Received PUBREL from linkswarm_mqtt_gateway (Mid: 38)
+1787996441: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996441: Sending PUBCOMP to linkswarm_mqtt_gateway (m38)
+1787996441: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (241 bytes))
+1787996441: Sending PUBLISH to linkswarm_mqtt_gateway (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (241 bytes))
+1787996441: Received PUBLISH from linkswarm_mqtt_gateway (d0, q2, r0, m39, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996441: Sending PUBREC to linkswarm_mqtt_gateway (m39, rc0)
+1787996441: Received PUBREL from linkswarm_mqtt_gateway (Mid: 39)
+1787996441: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996441: Sending PUBCOMP to linkswarm_mqtt_gateway (m39)
+1787996441: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (241 bytes))
+1787996441: Sending PUBLISH to linkswarm_mqtt_gateway (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (241 bytes))
+1787996441: Received PUBLISH from linkswarm_mqtt_gateway (d0, q2, r0, m40, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996441: Sending PUBREC to linkswarm_mqtt_gateway (m40, rc0)
+1787996441: Received PUBREL from linkswarm_mqtt_gateway (Mid: 40)
+1787996441: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996441: Sending PUBCOMP to linkswarm_mqtt_gateway (m40)
+1787996441: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (241 bytes))
+1787996441: Sending PUBLISH to linkswarm_mqtt_gateway (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (241 bytes))
+1787996442: Received PUBLISH from linkswarm_mqtt_gateway (d0, q2, r0, m41, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (136 bytes))
+1787996442: Sending PUBREC to linkswarm_mqtt_gateway (m41, rc0)
+1787996442: Received PUBREL from linkswarm_mqtt_gateway (Mid: 41)
+1787996442: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (136 bytes))
+1787996442: Sending PUBCOMP to linkswarm_mqtt_gateway (m41)
+1787996442: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (241 bytes))
+1787996442: Sending PUBLISH to linkswarm_mqtt_gateway (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (241 bytes))
+1787996442: Received PUBLISH from linkswarm_mqtt_gateway (d0, q2, r0, m42, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (137 bytes))
+1787996442: Sending PUBREC to linkswarm_mqtt_gateway (m42, rc0)
+1787996442: Received PUBREL from linkswarm_mqtt_gateway (Mid: 42)
+1787996442: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (137 bytes))
+1787996442: Sending PUBCOMP to linkswarm_mqtt_gateway (m42)
+1787996442: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (241 bytes))
+1787996442: Sending PUBLISH to linkswarm_mqtt_gateway (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (241 bytes))
+1787996442: Received PUBLISH from linkswarm_mqtt_gateway (d0, q2, r0, m43, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (137 bytes))
+1787996442: Sending PUBREC to linkswarm_mqtt_gateway (m43, rc0)
+1787996442: Received PUBREL from linkswarm_mqtt_gateway (Mid: 43)
+1787996442: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (137 bytes))
+1787996442: Sending PUBCOMP to linkswarm_mqtt_gateway (m43)
+1787996442: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (241 bytes))
+1787996442: Sending PUBLISH to linkswarm_mqtt_gateway (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (241 bytes))
+1787996442: Received PUBLISH from linkswarm_mqtt_gateway (d0, q2, r0, m44, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (137 bytes))
+1787996442: Sending PUBREC to linkswarm_mqtt_gateway (m44, rc0)
+1787996442: Received PUBREL from linkswarm_mqtt_gateway (Mid: 44)
+1787996442: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (137 bytes))
+1787996442: Sending PUBCOMP to linkswarm_mqtt_gateway (m44)
+1787996442: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (241 bytes))
+1787996442: Sending PUBLISH to linkswarm_mqtt_gateway (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (241 bytes))
+1787996442: Received PUBLISH from linkswarm_mqtt_gateway (d0, q2, r0, m45, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (137 bytes))
+1787996442: Sending PUBREC to linkswarm_mqtt_gateway (m45, rc0)
+1787996442: Received PUBREL from linkswarm_mqtt_gateway (Mid: 45)
+1787996442: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (137 bytes))
+1787996442: Sending PUBCOMP to linkswarm_mqtt_gateway (m45)
+1787996442: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996442: Sending PUBLISH to linkswarm_mqtt_gateway (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996442: Received PUBLISH from linkswarm_mqtt_gateway (d0, q2, r0, m46, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (137 bytes))
+1787996442: Sending PUBREC to linkswarm_mqtt_gateway (m46, rc0)
+1787996442: Received PUBREL from linkswarm_mqtt_gateway (Mid: 46)
+1787996442: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (137 bytes))
+1787996442: Sending PUBCOMP to linkswarm_mqtt_gateway (m46)
+1787996442: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996442: Sending PUBLISH to linkswarm_mqtt_gateway (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996442: Received PUBLISH from linkswarm_mqtt_gateway (d0, q2, r0, m47, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (137 bytes))
+1787996442: Sending PUBREC to linkswarm_mqtt_gateway (m47, rc0)
+1787996442: Received PUBREL from linkswarm_mqtt_gateway (Mid: 47)
+1787996442: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (137 bytes))
+1787996442: Sending PUBCOMP to linkswarm_mqtt_gateway (m47)
+1787996442: Received PINGREQ from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996442: Sending PINGRESP to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996444: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996444: Sending PUBLISH to linkswarm_mqtt_gateway (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996444: Received PUBLISH from linkswarm_mqtt_gateway (d0, q2, r0, m48, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (137 bytes))
+1787996444: Sending PUBREC to linkswarm_mqtt_gateway (m48, rc0)
+1787996444: Received PUBREL from linkswarm_mqtt_gateway (Mid: 48)
+1787996444: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (137 bytes))
+1787996444: Sending PUBCOMP to linkswarm_mqtt_gateway (m48)
+1787996444: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996444: Sending PUBLISH to linkswarm_mqtt_gateway (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996444: Received PUBLISH from linkswarm_mqtt_gateway (d0, q2, r0, m49, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996444: Sending PUBREC to linkswarm_mqtt_gateway (m49, rc0)
+1787996444: Received PUBREL from linkswarm_mqtt_gateway (Mid: 49)
+1787996444: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996444: Sending PUBCOMP to linkswarm_mqtt_gateway (m49)
+1787996444: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996444: Sending PUBLISH to linkswarm_mqtt_gateway (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996444: Received PUBLISH from linkswarm_mqtt_gateway (d0, q2, r0, m50, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996444: Sending PUBREC to linkswarm_mqtt_gateway (m50, rc0)
+1787996444: Received PUBREL from linkswarm_mqtt_gateway (Mid: 50)
+1787996444: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996444: Sending PUBCOMP to linkswarm_mqtt_gateway (m50)
+1787996444: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996444: Sending PUBLISH to linkswarm_mqtt_gateway (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996444: Received PUBLISH from linkswarm_mqtt_gateway (d0, q2, r0, m51, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996444: Sending PUBREC to linkswarm_mqtt_gateway (m51, rc0)
+1787996444: Received PUBREL from linkswarm_mqtt_gateway (Mid: 51)
+1787996444: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996444: Sending PUBCOMP to linkswarm_mqtt_gateway (m51)
+1787996444: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996444: Sending PUBLISH to linkswarm_mqtt_gateway (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996444: Received PUBLISH from linkswarm_mqtt_gateway (d0, q2, r0, m52, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996444: Sending PUBREC to linkswarm_mqtt_gateway (m52, rc0)
+1787996444: Received PUBREL from linkswarm_mqtt_gateway (Mid: 52)
+1787996444: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996444: Sending PUBCOMP to linkswarm_mqtt_gateway (m52)
+1787996444: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996444: Sending PUBLISH to linkswarm_mqtt_gateway (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996444: Received PUBLISH from linkswarm_mqtt_gateway (d0, q2, r0, m53, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996444: Sending PUBREC to linkswarm_mqtt_gateway (m53, rc0)
+1787996444: Received PUBREL from linkswarm_mqtt_gateway (Mid: 53)
+1787996444: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996444: Sending PUBCOMP to linkswarm_mqtt_gateway (m53)
+1787996444: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996444: Sending PUBLISH to linkswarm_mqtt_gateway (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996444: Received PUBLISH from linkswarm_mqtt_gateway (d0, q2, r0, m54, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996444: Sending PUBREC to linkswarm_mqtt_gateway (m54, rc0)
+1787996444: Received PUBREL from linkswarm_mqtt_gateway (Mid: 54)
+1787996444: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996444: Sending PUBCOMP to linkswarm_mqtt_gateway (m54)
+1787996444: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996444: Sending PUBLISH to linkswarm_mqtt_gateway (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996444: Received PUBLISH from linkswarm_mqtt_gateway (d0, q2, r0, m55, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996444: Sending PUBREC to linkswarm_mqtt_gateway (m55, rc0)
+1787996444: Received PUBREL from linkswarm_mqtt_gateway (Mid: 55)
+1787996444: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996444: Sending PUBCOMP to linkswarm_mqtt_gateway (m55)
+1787996444: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996444: Sending PUBLISH to linkswarm_mqtt_gateway (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996444: Received PUBLISH from linkswarm_mqtt_gateway (d0, q2, r0, m56, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996444: Sending PUBREC to linkswarm_mqtt_gateway (m56, rc0)
+1787996444: Received PUBREL from linkswarm_mqtt_gateway (Mid: 56)
+1787996444: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996444: Sending PUBCOMP to linkswarm_mqtt_gateway (m56)
+1787996444: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996444: Sending PUBLISH to linkswarm_mqtt_gateway (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996444: Received PUBLISH from linkswarm_mqtt_gateway (d0, q2, r0, m57, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996444: Sending PUBREC to linkswarm_mqtt_gateway (m57, rc0)
+1787996444: Received PUBREL from linkswarm_mqtt_gateway (Mid: 57)
+1787996444: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996444: Sending PUBCOMP to linkswarm_mqtt_gateway (m57)
+1787996445: Received PUBLISH from linkswarm_mqtt_gateway (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996445: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996446: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996446: Sending PUBLISH to linkswarm_mqtt_gateway (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996446: Received PUBLISH from linkswarm_mqtt_gateway (d0, q2, r0, m59, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996446: Sending PUBREC to linkswarm_mqtt_gateway (m59, rc0)
+1787996446: Received PUBREL from linkswarm_mqtt_gateway (Mid: 59)
+1787996446: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996446: Sending PUBCOMP to linkswarm_mqtt_gateway (m59)
+1787996446: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996446: Sending PUBLISH to linkswarm_mqtt_gateway (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996446: Received PUBLISH from linkswarm_mqtt_gateway (d0, q2, r0, m60, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996446: Sending PUBREC to linkswarm_mqtt_gateway (m60, rc0)
+1787996446: Received PUBREL from linkswarm_mqtt_gateway (Mid: 60)
+1787996446: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996446: Sending PUBCOMP to linkswarm_mqtt_gateway (m60)
+1787996446: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996446: Sending PUBLISH to linkswarm_mqtt_gateway (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996446: Received PUBLISH from linkswarm_mqtt_gateway (d0, q2, r0, m61, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996446: Sending PUBREC to linkswarm_mqtt_gateway (m61, rc0)
+1787996446: Received PUBREL from linkswarm_mqtt_gateway (Mid: 61)
+1787996446: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996446: Sending PUBCOMP to linkswarm_mqtt_gateway (m61)
+1787996446: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996446: Sending PUBLISH to linkswarm_mqtt_gateway (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996446: Received PUBLISH from linkswarm_mqtt_gateway (d0, q2, r0, m62, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996446: Sending PUBREC to linkswarm_mqtt_gateway (m62, rc0)
+1787996446: Received PUBREL from linkswarm_mqtt_gateway (Mid: 62)
+1787996446: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996446: Sending PUBCOMP to linkswarm_mqtt_gateway (m62)
+1787996446: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (241 bytes))
+1787996446: Sending PUBLISH to linkswarm_mqtt_gateway (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (241 bytes))
+1787996446: Received PUBLISH from linkswarm_mqtt_gateway (d0, q2, r0, m63, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996446: Sending PUBREC to linkswarm_mqtt_gateway (m63, rc0)
+1787996446: Received PUBREL from linkswarm_mqtt_gateway (Mid: 63)
+1787996446: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996446: Sending PUBCOMP to linkswarm_mqtt_gateway (m63)
+1787996446: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (241 bytes))
+1787996446: Sending PUBLISH to linkswarm_mqtt_gateway (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (241 bytes))
+1787996446: Received PUBLISH from linkswarm_mqtt_gateway (d0, q2, r0, m64, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996446: Sending PUBREC to linkswarm_mqtt_gateway (m64, rc0)
+1787996446: Received PUBREL from linkswarm_mqtt_gateway (Mid: 64)
+1787996446: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996446: Sending PUBCOMP to linkswarm_mqtt_gateway (m64)
+1787996446: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (241 bytes))
+1787996446: Sending PUBLISH to linkswarm_mqtt_gateway (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (241 bytes))
+1787996447: Received PUBLISH from linkswarm_mqtt_gateway (d0, q2, r0, m65, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (137 bytes))
+1787996447: Sending PUBREC to linkswarm_mqtt_gateway (m65, rc0)
+1787996447: Received PUBREL from linkswarm_mqtt_gateway (Mid: 65)
+1787996447: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (137 bytes))
+1787996447: Sending PUBCOMP to linkswarm_mqtt_gateway (m65)
+1787996447: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (241 bytes))
+1787996447: Sending PUBLISH to linkswarm_mqtt_gateway (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (241 bytes))
+1787996447: Received PUBLISH from linkswarm_mqtt_gateway (d0, q2, r0, m66, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (137 bytes))
+1787996447: Sending PUBREC to linkswarm_mqtt_gateway (m66, rc0)
+1787996447: Received PUBREL from linkswarm_mqtt_gateway (Mid: 66)
+1787996447: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (137 bytes))
+1787996447: Sending PUBCOMP to linkswarm_mqtt_gateway (m66)
+1787996447: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (241 bytes))
+1787996447: Sending PUBLISH to linkswarm_mqtt_gateway (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (241 bytes))
+1787996447: Received PUBLISH from linkswarm_mqtt_gateway (d0, q2, r0, m67, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (137 bytes))
+1787996447: Sending PUBREC to linkswarm_mqtt_gateway (m67, rc0)
+1787996447: Received PUBREL from linkswarm_mqtt_gateway (Mid: 67)
+1787996447: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (137 bytes))
+1787996447: Sending PUBCOMP to linkswarm_mqtt_gateway (m67)
+1787996447: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (241 bytes))
+1787996447: Sending PUBLISH to linkswarm_mqtt_gateway (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (241 bytes))
+1787996447: Received PUBLISH from linkswarm_mqtt_gateway (d0, q2, r0, m68, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (137 bytes))
+1787996447: Sending PUBREC to linkswarm_mqtt_gateway (m68, rc0)
+1787996447: Received PUBREL from linkswarm_mqtt_gateway (Mid: 68)
+1787996447: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (137 bytes))
+1787996447: Sending PUBCOMP to linkswarm_mqtt_gateway (m68)
+1787996447: Received PINGREQ from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996447: Sending PINGRESP to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996450: Received PUBLISH from linkswarm_mqtt_gateway (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996450: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996452: Received PINGREQ from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996452: Sending PINGRESP to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996455: Received PUBLISH from linkswarm_mqtt_gateway (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996455: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996456: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996456: Sending PUBLISH to linkswarm_mqtt_gateway (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996456: Received PUBLISH from linkswarm_mqtt_gateway (d0, q2, r0, m71, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996456: Sending PUBREC to linkswarm_mqtt_gateway (m71, rc0)
+1787996456: Received PUBREL from linkswarm_mqtt_gateway (Mid: 71)
+1787996456: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996456: Sending PUBCOMP to linkswarm_mqtt_gateway (m71)
+1787996456: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996456: Sending PUBLISH to linkswarm_mqtt_gateway (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996456: Received PUBLISH from linkswarm_mqtt_gateway (d0, q2, r0, m72, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996456: Sending PUBREC to linkswarm_mqtt_gateway (m72, rc0)
+1787996456: Received PUBREL from linkswarm_mqtt_gateway (Mid: 72)
+1787996456: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996456: Sending PUBCOMP to linkswarm_mqtt_gateway (m72)
+1787996456: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996456: Sending PUBLISH to linkswarm_mqtt_gateway (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996456: Received PUBLISH from linkswarm_mqtt_gateway (d0, q2, r0, m73, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996456: Sending PUBREC to linkswarm_mqtt_gateway (m73, rc0)
+1787996456: Received PUBREL from linkswarm_mqtt_gateway (Mid: 73)
+1787996456: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996456: Sending PUBCOMP to linkswarm_mqtt_gateway (m73)
+1787996456: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996456: Sending PUBLISH to linkswarm_mqtt_gateway (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996456: Received PUBLISH from linkswarm_mqtt_gateway (d0, q2, r0, m74, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996456: Sending PUBREC to linkswarm_mqtt_gateway (m74, rc0)
+1787996456: Received PUBREL from linkswarm_mqtt_gateway (Mid: 74)
+1787996456: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996456: Sending PUBCOMP to linkswarm_mqtt_gateway (m74)
+1787996456: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996456: Sending PUBLISH to linkswarm_mqtt_gateway (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996456: Received PUBLISH from linkswarm_mqtt_gateway (d0, q2, r0, m75, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996456: Sending PUBREC to linkswarm_mqtt_gateway (m75, rc0)
+1787996456: Received PUBREL from linkswarm_mqtt_gateway (Mid: 75)
+1787996456: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996456: Sending PUBCOMP to linkswarm_mqtt_gateway (m75)
+1787996456: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996456: Sending PUBLISH to linkswarm_mqtt_gateway (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996456: Received PUBLISH from linkswarm_mqtt_gateway (d0, q2, r0, m76, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996456: Sending PUBREC to linkswarm_mqtt_gateway (m76, rc0)
+1787996456: Received PUBREL from linkswarm_mqtt_gateway (Mid: 76)
+1787996456: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996456: Sending PUBCOMP to linkswarm_mqtt_gateway (m76)
+1787996456: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996456: Sending PUBLISH to linkswarm_mqtt_gateway (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996456: Received PUBLISH from linkswarm_mqtt_gateway (d0, q2, r0, m77, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996456: Sending PUBREC to linkswarm_mqtt_gateway (m77, rc0)
+1787996456: Received PUBREL from linkswarm_mqtt_gateway (Mid: 77)
+1787996456: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996456: Sending PUBCOMP to linkswarm_mqtt_gateway (m77)
+1787996456: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996456: Sending PUBLISH to linkswarm_mqtt_gateway (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996456: Received PUBLISH from linkswarm_mqtt_gateway (d0, q2, r0, m78, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996456: Sending PUBREC to linkswarm_mqtt_gateway (m78, rc0)
+1787996456: Received PUBREL from linkswarm_mqtt_gateway (Mid: 78)
+1787996456: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996456: Sending PUBCOMP to linkswarm_mqtt_gateway (m78)
+1787996456: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996456: Sending PUBLISH to linkswarm_mqtt_gateway (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996456: Received PUBLISH from linkswarm_mqtt_gateway (d0, q2, r0, m79, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996456: Sending PUBREC to linkswarm_mqtt_gateway (m79, rc0)
+1787996456: Received PUBREL from linkswarm_mqtt_gateway (Mid: 79)
+1787996456: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996456: Sending PUBCOMP to linkswarm_mqtt_gateway (m79)
+1787996456: Received PUBLISH from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996456: Sending PUBLISH to linkswarm_mqtt_gateway (d0, q0, r0, m0, 'aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (242 bytes))
+1787996456: Received PUBLISH from linkswarm_mqtt_gateway (d0, q2, r0, m80, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996456: Sending PUBREC to linkswarm_mqtt_gateway (m80, rc0)
+1787996456: Received PUBREL from linkswarm_mqtt_gateway (Mid: 80)
+1787996456: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, 'aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync', ... (138 bytes))
+1787996456: Sending PUBCOMP to linkswarm_mqtt_gateway (m80)
+1787996457: Received PINGREQ from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996457: Sending PINGRESP to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996460: Received PUBLISH from linkswarm_mqtt_gateway (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996460: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996462: Received PINGREQ from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996462: Sending PINGRESP to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996465: Received PUBLISH from linkswarm_mqtt_gateway (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996465: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996467: Received PINGREQ from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996467: Sending PINGRESP to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996470: Received PUBLISH from linkswarm_mqtt_gateway (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996470: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996470: Received PINGREQ from linkswarm_mqtt_gateway
+1787996470: Sending PINGRESP to linkswarm_mqtt_gateway
+1787996472: Received PINGREQ from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996472: Sending PINGRESP to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996475: Received PUBLISH from linkswarm_mqtt_gateway (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996475: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996477: Received PINGREQ from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996477: Sending PINGRESP to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996480: Received PUBLISH from linkswarm_mqtt_gateway (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996480: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996480: Received PINGREQ from linkswarm_mqtt_gateway
+1787996480: Sending PINGRESP to linkswarm_mqtt_gateway
+1787996482: Received PINGREQ from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996482: Sending PINGRESP to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996485: Received PUBLISH from linkswarm_mqtt_gateway (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996485: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996487: Received PINGREQ from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996487: Sending PINGRESP to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996490: Received PUBLISH from linkswarm_mqtt_gateway (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996490: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996490: Received PINGREQ from linkswarm_mqtt_gateway
+1787996490: Sending PINGRESP to linkswarm_mqtt_gateway
+1787996492: Received PINGREQ from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996492: Sending PINGRESP to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996495: Received PUBLISH from linkswarm_mqtt_gateway (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996495: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996497: Received PINGREQ from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996497: Sending PINGRESP to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996500: Received PUBLISH from linkswarm_mqtt_gateway (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996500: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996500: Received PINGREQ from linkswarm_mqtt_gateway
+1787996500: Sending PINGRESP to linkswarm_mqtt_gateway
+1787996502: Received PINGREQ from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996502: Sending PINGRESP to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996505: Received PUBLISH from linkswarm_mqtt_gateway (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996505: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996507: Received PINGREQ from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996507: Sending PINGRESP to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996510: Received PUBLISH from linkswarm_mqtt_gateway (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996510: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996510: Received PINGREQ from linkswarm_mqtt_gateway
+1787996510: Sending PINGRESP to linkswarm_mqtt_gateway
+1787996512: Received PINGREQ from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996512: Sending PINGRESP to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996515: Received PUBLISH from linkswarm_mqtt_gateway (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996515: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996516: Client <unknown> has exceeded timeout, disconnecting.
+1787996516: Client <unknown> has exceeded timeout, disconnecting.
+1787996517: Received PINGREQ from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996517: Sending PINGRESP to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996520: Received PUBLISH from linkswarm_mqtt_gateway (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996520: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996520: Received PINGREQ from linkswarm_mqtt_gateway
+1787996520: Sending PINGRESP to linkswarm_mqtt_gateway
+1787996522: Client <unknown> has exceeded timeout, disconnecting.
+1787996522: Received PINGREQ from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996522: Sending PINGRESP to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996525: Received PUBLISH from linkswarm_mqtt_gateway (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996525: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996527: Received PINGREQ from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996527: Sending PINGRESP to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996530: Received PUBLISH from linkswarm_mqtt_gateway (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996530: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996530: Received PINGREQ from linkswarm_mqtt_gateway
+1787996530: Sending PINGRESP to linkswarm_mqtt_gateway
+1787996532: Received PINGREQ from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996532: Sending PINGRESP to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996535: Received PUBLISH from linkswarm_mqtt_gateway (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996535: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996537: Received PINGREQ from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996537: Sending PINGRESP to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996540: Received PUBLISH from linkswarm_mqtt_gateway (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996540: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996540: Received PINGREQ from linkswarm_mqtt_gateway
+1787996540: Sending PINGRESP to linkswarm_mqtt_gateway
+1787996542: Received PINGREQ from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996542: Sending PINGRESP to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996545: Received PUBLISH from linkswarm_mqtt_gateway (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996545: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996547: Received PINGREQ from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996547: Sending PINGRESP to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996550: Received PUBLISH from linkswarm_mqtt_gateway (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996550: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996550: Received PINGREQ from linkswarm_mqtt_gateway
+1787996550: Sending PINGRESP to linkswarm_mqtt_gateway
+1787996552: Received PINGREQ from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996552: Sending PINGRESP to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996555: Received PUBLISH from linkswarm_mqtt_gateway (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996555: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996557: Received PINGREQ from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996557: Sending PINGRESP to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996560: Received PUBLISH from linkswarm_mqtt_gateway (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996560: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996560: Received PINGREQ from linkswarm_mqtt_gateway
+1787996560: Sending PINGRESP to linkswarm_mqtt_gateway
+1787996562: Received PINGREQ from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996562: Sending PINGRESP to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996565: Received PUBLISH from linkswarm_mqtt_gateway (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996565: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996567: Received PINGREQ from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996567: Sending PINGRESP to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996570: Received PUBLISH from linkswarm_mqtt_gateway (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996570: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996570: Received PINGREQ from linkswarm_mqtt_gateway
+1787996570: Sending PINGRESP to linkswarm_mqtt_gateway
+1787996572: Received PINGREQ from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996572: Sending PINGRESP to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996575: Received PUBLISH from linkswarm_mqtt_gateway (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996575: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996577: Received PINGREQ from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996577: Sending PINGRESP to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996580: Received PUBLISH from linkswarm_mqtt_gateway (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996580: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996580: Received PINGREQ from linkswarm_mqtt_gateway
+1787996580: Sending PINGRESP to linkswarm_mqtt_gateway
+1787996582: Received PINGREQ from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996582: Sending PINGRESP to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996585: Received PUBLISH from linkswarm_mqtt_gateway (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996585: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996587: Received PINGREQ from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996587: Sending PINGRESP to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996590: Received PUBLISH from linkswarm_mqtt_gateway (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996590: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996590: Received PINGREQ from linkswarm_mqtt_gateway
+1787996590: Sending PINGRESP to linkswarm_mqtt_gateway
+1787996592: Received PINGREQ from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996592: Sending PINGRESP to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996595: Received PUBLISH from linkswarm_mqtt_gateway (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996595: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996597: Received PINGREQ from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996597: Sending PINGRESP to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996600: Received PUBLISH from linkswarm_mqtt_gateway (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996600: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996600: Received PINGREQ from linkswarm_mqtt_gateway
+1787996600: Sending PINGRESP to linkswarm_mqtt_gateway
+1787996602: Received PINGREQ from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996602: Sending PINGRESP to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996605: Received PUBLISH from linkswarm_mqtt_gateway (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996605: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996607: Received PINGREQ from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996607: Sending PINGRESP to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996610: Received PUBLISH from linkswarm_mqtt_gateway (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996610: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996610: Received PINGREQ from linkswarm_mqtt_gateway
+1787996610: Sending PINGRESP to linkswarm_mqtt_gateway
+1787996612: Received PINGREQ from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996612: Sending PINGRESP to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996615: Received PUBLISH from linkswarm_mqtt_gateway (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996615: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996617: Received PINGREQ from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996617: Sending PINGRESP to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996620: Received PUBLISH from linkswarm_mqtt_gateway (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996620: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996620: Received PINGREQ from linkswarm_mqtt_gateway
+1787996620: Sending PINGRESP to linkswarm_mqtt_gateway
+1787996622: Received PINGREQ from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996622: Sending PINGRESP to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996625: Received PUBLISH from linkswarm_mqtt_gateway (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996625: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996627: Received PINGREQ from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996627: Sending PINGRESP to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996630: Received PUBLISH from linkswarm_mqtt_gateway (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996630: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996630: Received PINGREQ from linkswarm_mqtt_gateway
+1787996630: Sending PINGRESP to linkswarm_mqtt_gateway
+1787996632: Received PINGREQ from link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996632: Sending PINGRESP to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684
+1787996635: Received PUBLISH from linkswarm_mqtt_gateway (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787996635: Sending PUBLISH to link-pulse-7236190b-85f8-4308-a7fc-09ff88638684 (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 

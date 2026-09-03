@@ -1,0 +1,5 @@
+2026-08-29 16:50:33,822 INFO LinkSwarm discovery starting udp_multicast=239.255.77.77:37777 standard_mdns=_linkswarm-d1._udp.local:37777 query_tianluo=false
+2026-08-29 16:50:33,832 INFO multicast iface=eth0 ip=192.168.3.10
+2026-08-29 16:50:33,884 INFO mdns iface=eth0 ifindex=3 ip=192.168.3.10 status=enabled
+2026-08-29 16:50:33,884 INFO sn=D100166 type=tl ip_tl=192.168.3.10 ip_wifi= tl_verified=false avahi=eth0=enabled
+2026-08-29 16:50:38,087 INFO LinkSwarm discovery stopped

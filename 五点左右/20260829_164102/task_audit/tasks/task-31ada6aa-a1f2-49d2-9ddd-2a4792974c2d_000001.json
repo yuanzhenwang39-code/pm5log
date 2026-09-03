@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "record_type": "task_definition",
+  "task_uuid": "task-31ada6aa-a1f2-49d2-9ddd-2a4792974c2d",
+  "create_seq": 1,
+  "trace_id": "af88cdc4-e8fd-4fc8-8001-b79ad57cc71c",
+  "received_unix_ms": 1787992874555,
+  "task": {
+    "uuid": "task-31ada6aa-a1f2-49d2-9ddd-2a4792974c2d",
+    "name": "角色1",
+    "hash": "",
+    "duration_ms": 124030,
+    "audios": [],
+    "emoticons": [],
+    "motions": [{"index":0,"resource_uuid":"52593fd2-ca67-4337-b8fd-c70206761a4d","name":"站立","start_offset_ms":0,"duration_ms":8000,"reset_after_motion":false,"motion_type":1,"step_adjustment_enabled":false}],
+    "moves": [{"index":0,"start_offset_ms":119030,"duration_ms":5000,"position_count":101,"velocity_count":101,"trajectory_file":"../trajectories/task-31ada6aa-a1f2-49d2-9ddd-2a4792974c2d_000001_move_000.jsonl"},{"index":1,"start_offset_ms":13000,"duration_ms":31750,"position_count":637,"velocity_count":637,"trajectory_file":"../trajectories/task-31ada6aa-a1f2-49d2-9ddd-2a4792974c2d_000001_move_001.jsonl"},{"index":2,"start_offset_ms":46040,"duration_ms":39700,"position_count":796,"velocity_count":796,"trajectory_file":"../trajectories/task-31ada6aa-a1f2-49d2-9ddd-2a4792974c2d_000001_move_002.jsonl"}]
+  },
+  "validation": {"ok":true,"code":0,"message":"OK"},
+  "save": {"ok":true,"code":0,"message":"success"}
+}

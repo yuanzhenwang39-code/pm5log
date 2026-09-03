@@ -1,0 +1,11 @@
+[bringup] cmd:
+  ros2  run  dog_udp_bridge  dog_udp_bridge_node  --ros-args  --log-level  info  -p  backend_type:=sdk  -p  allow_real_sdk:=true  -p  auto_acquire:=true  -p  sdk_dog_ip:=192.168.234.1  -p  sdk_config_path:=/opt/export/config/sdk_config.yaml  -p  max_abs_vx_mps:=1.50  -p  max_abs_vy_mps:=0.50  -p  max_abs_omega_radps:=1.00
+
+[0m[INFO] [1787993431.804530323] [dog_udp_bridge_node]: Using SDK local endpoint from /opt/export/config/sdk_config.yaml: target_ip=192.168.234.1 target_port=43988[0m
+[0m[INFO] [1787993431.804714657] [dog_udp_bridge_node]: App UDP client started dog_ip=192.168.234.1 command_port=8081 local_bind_ip=0.0.0.0 state_port=8080[0m
+ROBOT SDK is Running, APP Command or other input is InValid!
+mp_recv_cp: 192.168.234.1:43988
+[0m[INFO] [1787993438.954403827] [rclcpp]: signal_handler(SIGINT/SIGTERM)[0m
+[33m[WARN] [1787993438.960375702] [dog_udp_bridge.sdk_dog_backend]: stop_motion force_two_leg_cancel requested although shadow two_leg_active=false force_two_leg_cancel shadow_state_override=true[0m
+client bind success
+connect success!

@@ -1,0 +1,56 @@
+1787992802: mosquitto version 2.0.11 starting
+1787992802: Config loaded from /opt/linkswarm_mosquitto/config/linkswarm_mosquitto.conf.
+1787992802: Opening ipv4 listen socket on port 1883.
+1787992802: mosquitto version 2.0.11 running
+1787992807: New connection from 127.0.0.1:42512 on port 1883.
+1787992807: New client connected from 127.0.0.1:42512 as linkswarm_mqtt_gateway (p2, c1, k10).
+1787992807: No will message specified.
+1787992807: Sending CONNACK to linkswarm_mqtt_gateway (0, 0)
+1787992807: Received SUBSCRIBE from linkswarm_mqtt_gateway
+1787992807: 	aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync (QoS 2)
+1787992807: linkswarm_mqtt_gateway 2 aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync
+1787992807: Sending SUBACK to linkswarm_mqtt_gateway
+1787992807: Received SUBSCRIBE from linkswarm_mqtt_gateway
+1787992807: 	aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FSetHeartbeatFrequency (QoS 2)
+1787992807: linkswarm_mqtt_gateway 2 aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FSetHeartbeatFrequency
+1787992807: Sending SUBACK to linkswarm_mqtt_gateway
+1787992807: Received SUBSCRIBE from linkswarm_mqtt_gateway
+1787992807: 	aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FGetHeartbeat (QoS 2)
+1787992807: linkswarm_mqtt_gateway 2 aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FGetHeartbeat
+1787992807: Sending SUBACK to linkswarm_mqtt_gateway
+1787992807: Received SUBSCRIBE from linkswarm_mqtt_gateway
+1787992807: 	aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FSetGroupControlMode (QoS 2)
+1787992807: linkswarm_mqtt_gateway 2 aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FSetGroupControlMode
+1787992807: Sending SUBACK to linkswarm_mqtt_gateway
+1787992807: Received SUBSCRIBE from linkswarm_mqtt_gateway
+1787992807: 	aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FGetRobotConfig (QoS 2)
+1787992807: linkswarm_mqtt_gateway 2 aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FGetRobotConfig
+1787992807: Sending SUBACK to linkswarm_mqtt_gateway
+1787992807: Received SUBSCRIBE from linkswarm_mqtt_gateway
+1787992807: 	aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FHealthDiagnosis (QoS 2)
+1787992807: linkswarm_mqtt_gateway 2 aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FHealthDiagnosis
+1787992807: Sending SUBACK to linkswarm_mqtt_gateway
+1787992807: Received SUBSCRIBE from linkswarm_mqtt_gateway
+1787992807: 	aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FGetRobotInfo (QoS 2)
+1787992807: linkswarm_mqtt_gateway 2 aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FGetRobotInfo
+1787992807: Sending SUBACK to linkswarm_mqtt_gateway
+1787992807: Received SUBSCRIBE from linkswarm_mqtt_gateway
+1787992807: 	aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FInitImu (QoS 2)
+1787992807: linkswarm_mqtt_gateway 2 aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FInitImu
+1787992807: Sending SUBACK to linkswarm_mqtt_gateway
+1787992807: Received SUBSCRIBE from linkswarm_mqtt_gateway
+1787992807: 	aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmTaskService%2FCreateTask (QoS 2)
+1787992807: linkswarm_mqtt_gateway 2 aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmTaskService%2FCreateTask
+1787992807: Sending SUBACK to linkswarm_mqtt_gateway
+1787992807: Received SUBSCRIBE from linkswarm_mqtt_gateway
+1787992807: 	aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmTaskService%2FExecuteTask (QoS 2)
+1787992807: linkswarm_mqtt_gateway 2 aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmTaskService%2FExecuteTask
+1787992807: Sending SUBACK to linkswarm_mqtt_gateway
+1787992807: Received SUBSCRIBE from linkswarm_mqtt_gateway
+1787992807: 	aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmTaskService%2FStopTask (QoS 2)
+1787992807: linkswarm_mqtt_gateway 2 aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmTaskService%2FStopTask
+1787992807: Sending SUBACK to linkswarm_mqtt_gateway
+1787992807: Received PUBLISH from linkswarm_mqtt_gateway (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (83 bytes))
+1787992812: Received PUBLISH from linkswarm_mqtt_gateway (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787992817: Received PUBLISH from linkswarm_mqtt_gateway (d0, q0, r0, m0, '/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel', ... (85 bytes))
+1787992817: mosquitto version 2.0.11 terminating

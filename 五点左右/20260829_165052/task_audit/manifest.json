@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "run_id": "20260829_165052",
+  "created_unix_ms": 1787993458233,
+  "robot_id": "",
+  "source_uuid": "linkswarm_mqtt_gateway",
+  "source_ipv4": "",
+  "audit_dir": "/home/firefly/workspace/zsibot/linkswarm_d1_ros2/logs/platform_sdk_bringup/20260829_165052/task_audit",
+  "events_file": "events.jsonl",
+  "layout": {
+    "tasks_dir": "tasks",
+    "trajectories_dir": "trajectories"
+  }
+}

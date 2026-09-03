@@ -1,0 +1,50 @@
+[2026-08-29 16:41:07.617] [info] [INFO] [1787992867.616726051] [mqtt_gateway_node]: MQTT parameters loaded host=127.0.0.1 port=1883 client_id=linkswarm_mqtt_gateway keepalive_sec=10 username_set=false
+[2026-08-29 16:41:07.618] [warning] [WARN] [1787992867.618677301] [mqtt_gateway_node]: Heartbeat sn is empty; continuing because RobotHeartbeat.sn is optional for D1
+[2026-08-29 16:41:07.618] [info] [INFO] [1787992867.618823718] [mqtt_gateway_node]: Heartbeat tl_ip parameter is empty; Tianluo auto detection will use interface eth0
+[2026-08-29 16:41:07.618] [warning] [WARN] [1787992867.618844135] [mqtt_gateway_node]: Heartbeat wifi_ip is empty after checking wlan0 and fallback parameters; platform diagnostics should flag this
+[2026-08-29 16:41:07.618] [info] [INFO] [1787992867.618880301] [mqtt_gateway_node]: Heartbeat defaults initialized sn= sn_source=empty wifi_ip= tl_ip= wifi_source=empty tianluo_interface=eth0 tl_ip_auto_detect=true tl_default_ip=192.168.168.168 tl_connected_requires_non_default_ip=true battery_percent=100 battery_charging=false battery_source=default uwb_status_code=1 pose_source=default
+[2026-08-29 16:41:07.619] [info] [INFO] [1787992867.619463926] [mqtt_gateway_node]: Robot management defaults loaded name= product=D1 model= interaction=false fall_detection=false volume=0 group_control_mode=true publish_pnc_capable=false
+[2026-08-29 16:41:07.621] [info] [INFO] [1787992867.621068385] [mqtt_gateway_node]: Tianluo tl_ip changed old_ip= new_ip=192.168.3.10 interface=eth0 source=interface
+[2026-08-29 16:41:07.621] [info] [INFO] [1787992867.621134593] [mqtt_gateway_node]: Tianluo tl_ip status interface=eth0 ip=192.168.3.10 source=interface tl_connected=true
+[2026-08-29 16:41:07.621] [info] [INFO] [1787992867.621195551] [mqtt_gateway_node]: Tianluo tl_ip auto detection initialized interface=eth0 default_ip=192.168.168.168 connected_requires_non_default_ip=true period_ms=1000
+[2026-08-29 16:41:07.627] [info] [INFO] [1787992867.627262510] [mqtt_gateway_node]: Tianshu USB presence changed connected=false path=/sys/class/net/eth1/device tl_connected_source=tianluo_ip_auto_detection
+[2026-08-29 16:41:07.627] [info] [INFO] [1787992867.627330760] [mqtt_gateway_node]: Tianshu USB presence detection initialized interface=eth1 override_path= period_ms=1000
+[2026-08-29 16:41:07.628] [info] [INFO] [1787992867.628814176] [mqtt_gateway_node]: Task audit logger started dir=/home/firefly/workspace/zsibot/linkswarm_d1_ros2/logs/platform_sdk_bringup/20260829_164102/task_audit
+[2026-08-29 16:41:07.633] [info] [INFO] [1787992867.633361843] [mqtt_gateway_node]: Heartbeat sensor pose source robot_state_topic=/linkswarm_d1/robot_state enabled=true sensor_uwb_timeout_ms=3000 task_status_topic=/motion_manager/task_status
+[2026-08-29 16:41:07.640] [info] [INFO] [1787992867.640616176] [mqtt_gateway_node]: Heartbeat scheduler started frequency_hz=0.200
+[2026-08-29 16:41:07.641] [info] [INFO] [1787992867.641193968] [mqtt_gateway_node]: MQTT client connecting to 127.0.0.1:1883 as linkswarm_mqtt_gateway
+[2026-08-29 16:41:07.641] [info] [INFO] [1787992867.641242385] [mqtt_gateway_node]: MQTT connected
+[2026-08-29 16:41:07.641] [info] [INFO] [1787992867.641353801] [mqtt_gateway_node]: MQTT subscribe requested topic=aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FTimeSync qos=2 mid=1
+[2026-08-29 16:41:07.641] [info] [INFO] [1787992867.641429343] [mqtt_gateway_node]: MQTT subscribe requested topic=aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FSetHeartbeatFrequency qos=2 mid=2
+[2026-08-29 16:41:07.641] [info] [INFO] [1787992867.641518010] [mqtt_gateway_node]: MQTT subscribe requested topic=aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FGetHeartbeat qos=2 mid=3
+[2026-08-29 16:41:07.641] [info] [INFO] [1787992867.641577510] [mqtt_gateway_node]: MQTT subscribe requested topic=aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FSetGroupControlMode qos=2 mid=4
+[2026-08-29 16:41:07.641] [info] [INFO] [1787992867.641635551] [mqtt_gateway_node]: MQTT subscribe requested topic=aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FGetRobotConfig qos=2 mid=5
+[2026-08-29 16:41:07.642] [info] [INFO] [1787992867.641841468] [mqtt_gateway_node]: MQTT subscribe requested topic=aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FHealthDiagnosis qos=2 mid=6
+[2026-08-29 16:41:07.642] [info] [INFO] [1787992867.642064593] [mqtt_gateway_node]: MQTT subscribe requested topic=aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FGetRobotInfo qos=2 mid=7
+[2026-08-29 16:41:07.642] [info] [INFO] [1787992867.642128760] [mqtt_gateway_node]: MQTT subscribe requested topic=aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FInitImu qos=2 mid=8
+[2026-08-29 16:41:07.642] [info] [INFO] [1787992867.642187676] [mqtt_gateway_node]: MQTT subscribe requested topic=aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmTaskService%2FCreateTask qos=2 mid=9
+[2026-08-29 16:41:07.642] [info] [INFO] [1787992867.642245135] [mqtt_gateway_node]: MQTT subscribe requested topic=aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmTaskService%2FExecuteTask qos=2 mid=10
+[2026-08-29 16:41:07.642] [info] [INFO] [1787992867.642300843] [mqtt_gateway_node]: MQTT subscribe requested topic=aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmTaskService%2FStopTask qos=2 mid=11
+[2026-08-29 16:41:07.642] [info] [INFO] [1787992867.642367051] [mqtt_gateway_node]: Heartbeat scheduler MQTT connection state=connected
+[2026-08-29 16:41:07.642] [info] [INFO] [1787992867.642562760] [mqtt_gateway_node]: heartbeat_snapshot wifi_ip= tl_ip=192.168.3.10 sn= battery=49 battery_source=sdk battery_default=false charging=false state=1 uwb=1 pose=(0.000,0.000,0.000) pose_source=default pose_stale=true source=default
+[2026-08-29 16:41:07.642] [info] [INFO] [1787992867.642592801] [mqtt_gateway_node]: MQTT subscribe ack mid=1 granted_qos=2
+[2026-08-29 16:41:07.642] [info] [INFO] [1787992867.642759343] [mqtt_gateway_node]: MQTT subscribe ack mid=2 granted_qos=2
+[2026-08-29 16:41:07.642] [info] [INFO] [1787992867.642766051] [mqtt_gateway_node]: Heartbeat immediate publish reason=mqtt_connected seq=1 topic=/channel/%2Faima%2Flinkswarm%2Fheartbeat/pb%3Alinkswarm.protocol.LinkSwarmHeartbeatChannel publish=queued
+[2026-08-29 16:41:07.683] [info] [INFO] [1787992867.683618635] [mqtt_gateway_node]: MQTT subscribe ack mid=3 granted_qos=2
+[2026-08-29 16:41:07.683] [info] [INFO] [1787992867.683794218] [mqtt_gateway_node]: MQTT subscribe ack mid=4 granted_qos=2
+[2026-08-29 16:41:07.683] [info] [INFO] [1787992867.683908260] [mqtt_gateway_node]: MQTT subscribe ack mid=5 granted_qos=2
+[2026-08-29 16:41:07.684] [info] [INFO] [1787992867.683976218] [mqtt_gateway_node]: MQTT subscribe ack mid=6 granted_qos=2
+[2026-08-29 16:41:07.684] [info] [INFO] [1787992867.684038635] [mqtt_gateway_node]: MQTT subscribe ack mid=7 granted_qos=2
+[2026-08-29 16:41:07.684] [info] [INFO] [1787992867.684100760] [mqtt_gateway_node]: MQTT subscribe ack mid=8 granted_qos=2
+[2026-08-29 16:41:07.684] [info] [INFO] [1787992867.684162885] [mqtt_gateway_node]: MQTT subscribe ack mid=9 granted_qos=2
+[2026-08-29 16:41:07.684] [info] [INFO] [1787992867.684224718] [mqtt_gateway_node]: MQTT subscribe ack mid=10 granted_qos=2
+[2026-08-29 16:41:07.684] [info] [INFO] [1787992867.684288885] [mqtt_gateway_node]: MQTT subscribe ack mid=11 granted_qos=2
+[2026-08-29 16:41:12.643] [info] [INFO] [1787992872.643031720] [mqtt_gateway_node]: heartbeat_snapshot wifi_ip= tl_ip=192.168.3.10 sn= battery=49 battery_source=sdk battery_default=false charging=false state=1 uwb=1 pose=(0.000,0.000,0.000) pose_source=default pose_stale=true source=default
+[2026-08-29 16:41:14.556] [info] [INFO] [1787992874.555878555] [mqtt_gateway_node]: Received MQTT RPC method=CreateTask topic=aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmTaskService%2FCreateTask msg_id=269 res_topic=aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmTaskService%2FCreateTask payload_bytes=89367 inner_bytes=89271
+[2026-08-29 16:41:14.557] [info] [INFO] [1787992874.557840305] [mqtt_gateway_node]: CreateTask received msg_id=269 trace_id=af88cdc4-e8fd-4fc8-8001-b79ad57cc71c task_uuid=task-31ada6aa-a1f2-49d2-9ddd-2a4792974c2d service=/motion_manager/create_task
+[2026-08-29 16:41:14.561] [info] [INFO] [1787992874.561068763] [mqtt_gateway_node]: Received MQTT RPC method=GetRobotConfig topic=aimrt_rpc_req/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FGetRobotConfig msg_id=270 res_topic=aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FGetRobotConfig payload_bytes=249 inner_bytes=149
+[2026-08-29 16:41:14.561] [info] [INFO] [1787992874.561298596] [mqtt_gateway_node]: GetRobotConfig handled msg_id=270 trace_id=ee141302-2a02-4f1b-adfe-5b602eeeaa49 response_topic=aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmRobotService%2FGetRobotConfig publish=queued
+[2026-08-29 16:41:14.584] [info] [INFO] [1787992874.583943888] [mqtt_gateway_node]: CreateTask completed msg_id=269 trace_id=af88cdc4-e8fd-4fc8-8001-b79ad57cc71c task_uuid=task-31ada6aa-a1f2-49d2-9ddd-2a4792974c2d replaced=false response_topic=aimrt_rpc_rsp/linkswarm_manager/%2Flinkswarm.protocol.LinkSwarmTaskService%2FCreateTask publish=queued
+[2026-08-29 16:41:17.388] [warning] [WARN] [1787992877.388243931] [mqtt_gateway_node]: MQTT disconnected: rc=7
+[2026-08-29 16:41:17.388] [info] [INFO] [1787992877.388445764] [mqtt_gateway_node]: Heartbeat scheduler MQTT connection state=disconnected
+[2026-08-29 16:41:18.341] [info] [INFO] [1787992878.341499265] [rclcpp]: signal_handler(SIGINT/SIGTERM)

@@ -1,0 +1,3 @@
+[2026-08-29 16:50:31.804] [info] [INFO] [1787993431.804530323] [dog_udp_bridge_node]: Using SDK local endpoint from /opt/export/config/sdk_config.yaml: target_ip=192.168.234.1 target_port=43988
+[2026-08-29 16:50:31.804] [info] [INFO] [1787993431.804714657] [dog_udp_bridge_node]: App UDP client started dog_ip=192.168.234.1 command_port=8081 local_bind_ip=0.0.0.0 state_port=8080
+[2026-08-29 16:50:38.954] [info] [INFO] [1787993438.954403827] [rclcpp]: signal_handler(SIGINT/SIGTERM)

@@ -1,0 +1,24 @@
+[taixin-dhcp-bootstrap] enabled=1 required=0 wait_forever=1 attempts=0 timeout_sec=20 retry_sleep_sec=5 dhcp_ip_policy=accept_any_ipv4 iface=eth0
+[taixin-dhcp-bootstrap] restore_default_ip=192.168.168.168 restore_default_cidr=192.168.168.168/24 remove_default_route=1 restore_default_on_fail=1
+[taixin-dhcp-bootstrap] this bootstrap only applies temporary runtime IPv4/DHCP changes
+[taixin-dhcp-bootstrap][WARN] LINKSWARM_TAIXIN_DHCP_EXPECT_PREFIX ignored; any DHCP IPv4 will be accepted
+[taixin-dhcp-bootstrap] attempt=1 requesting DHCP lease on eth0 timeout=20s
+Internet Systems Consortium DHCP Client 4.4.1
+Copyright 2004-2018 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+mkdir: cannot create directory '/run/systemd/resolve/netif': Permission denied
+Listening on LPF/eth0/06:28:9c:a1:6c:c6
+Sending on   LPF/eth0/06:28:9c:a1:6c:c6
+Sending on   Socket/fallback
+DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0xb5ca031)
+DHCPOFFER of 192.168.3.10 from 192.168.3.1
+DHCPREQUEST for 192.168.3.10 on eth0 to 255.255.255.255 port 67 (xid=0x31a05c0b)
+DHCPACK of 192.168.3.10 from 192.168.3.1 (xid=0xb5ca031)
+mkdir: cannot create directory '/run/systemd/resolve/netif': Permission denied
+/sbin/dhclient-script: 42: /etc/dhcp/dhclient-exit-hooks.d/resolved: cannot create /run/network/isc-dhcp-v4-eth0: Permission denied
+bound to 192.168.3.10 -- renewal in 32728 seconds.
+Can't create /var/run/dhclient.pid: Permission denied
+[taixin-dhcp-bootstrap] DHCP ok iface=eth0 ip=192.168.3.10 attempt=1
+[taixin-dhcp-bootstrap] RESULT=TAIXIN_DHCP_BOOTSTRAP_OK ip=192.168.3.10
